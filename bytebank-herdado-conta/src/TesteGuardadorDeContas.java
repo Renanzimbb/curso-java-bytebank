@@ -8,6 +8,7 @@ public class TesteGuardadorDeContas {
 
         ContaPoupanca cp = new ContaPoupanca(33, 11);
         guardador.adiciona(cp);
+        guardador.remove(cp);
 
         int tamanho = guardador.getQuantidadeDeElementos();
         System.out.println(tamanho);

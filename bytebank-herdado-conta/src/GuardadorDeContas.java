@@ -21,5 +21,10 @@ public class GuardadorDeContas {
         return this.referencias[i];
     }
 
+    public void remove(Conta cp) {
+        
+       
+    }
+
     
 }
