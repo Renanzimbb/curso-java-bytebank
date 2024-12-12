@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 
-public class Teste {
+public class TesteArrayList {
     public static void main(String[] args) {
-        ArrayList lista = new ArrayList();
+        ArrayList<Conta> lista = new ArrayList<Conta>();
 
         Conta cc = new ContaCorrente(22, 11);
         lista.add(cc);
